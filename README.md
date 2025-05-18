@@ -1,81 +1,107 @@
-***Per the BSD 3-Clause License:***
+# Per the BSD 3-Clause License:
 Neither the name of the psutil authors nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
 
-***Memory Management Monitor (macOS)***
-*A lightweight Python utility for tracking system memory, CPU, swap, load averages, and GPU VRAM usage on macOS. Logs diagnostics to the Desktop for easy performance review.
+# Memory Management Monitor (macOS)
+
+A lightweight Python utility for tracking system memory, CPU, swap, load averages, and GPU VRAM usage on macOS. Logs diagnostics to the Desktop for easy performance review.
 
 
-***Features***
+# Features
+
 •  Logs system stats every 10 seconds
+
 •  Captures:
+
 •  Total, used, and available RAM
+
 •  Swap memory usage
+
 •  CPU usage percentage
- ***PYQT6 Transparient UI to show metrics***
+
+ ***PYQT6 Transparent UI to show metrics***
+ 
 •  Load averages (1, 5, and 15 minutes)
+
 •  macOS GPU VRAM details using system_profiler
+
 • Runs silently as .pyw (no terminal window)
+
 •  Writes to ~/Desktop/memory_log.txt for diagnostics. 
 
 
-***Dependencies***
+# Dependencies
 
-# Core functionality
+***Core functionality***
+
 pip install PyQt6
+
 pip install psutil
 
 # For multimedia support (sounds)
+
 pip install PyQt6-Qt6
 
-***FOR FUTURE UPDATES***
-# If you want charting capabilities
+For Future Updates: If you want charting capabilities:
 pip install PyQt6-Charts
 
 # Optional but useful for certain system integrations
+
 pip install darkdetect
 
 Or Refer tot the full requirements.txt
+
 ***Found inside the the extended system monitor version if needed.***
 
 
-***Usage***
+# Usage
 
-##Run directly:
+***Run directly***
 
 PYQT6 UI Displays CPU, GPU, 1,5,15 Load Averages.
 
-##To check text log: python check_memory.pyw
+To check text log: python check_memory.pyw
 
-##Or double-click the .pyw file on desktop.
-
-
-
-***License***
-
-This project is licensed under the BSD 3-Clause License.
-It includes components under compatible open source terms.
-Great libraries like psutil are used to gather system information.
-Thanks to the psutil authors for their work, I am NOT endorsed by them
-just giving them credit where credit is due.
+Or double-click the .pyw file on desktop.
 
 
 
-***Architect of the UI design and custom features***
-•   Developed and maintained by Justin Guida (@justinguida941)
+# License
+
+-This project is licensed under the BSD 3-Clause License.
+
+-It includes components under compatible open source terms.
+
+-Great libraries like psutil are used to gather system information.
+
+-Thanks to the psutil authors for their work, I am NOT endorsed by them
+
+-just giving them credit where credit is due.
+
+
+
+# Architect of the UI design and Custom Features
+•   Developed custom diagnostics tool, UI, and maintained by Justin Guida (@justinguida941)
  	--Utilizing ***psutil***
+  
 •   Tested on macOS 14 (M4 chip) 48 GB RAM.
  	-Not sure if this is windows compatable
+  
 •   ***Compatible with Python 3.10+***
 
 
-***Roadmap***
+# Roadmap
 
 The additions will support:
 
 - **QColorDialog**: For your UI editor's color selection
+  
 - **QSlider**: For opacity/transparency controls in your UI editor
+
 - **QIcon, QPainter, QPen, QPixmap**: For custom drawing like the traffic light buttons
+ 
 - **json**: To save/load UI customization settings
+  
 - **Matplotlibs** for 2D graphing, and **3d Graphing using other libraries to visualize system usage.**
+  
 - **Tempature, Heatmaps, Network Traffic***
 
