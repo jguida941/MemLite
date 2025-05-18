@@ -1,0 +1,11 @@
+#Needed to be installed. Id suggest to install them in a virtual environment
+PyQt6==6.6.1
+psutil==5.9.8
+
+#For future implementation
+#Dont need to install these packages for now
+
+pyqtgraph==0.13.3
+pyttsx3==2.90
+GPUtil==1.4.0
+platformdirs==4.2.0

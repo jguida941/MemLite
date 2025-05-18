@@ -1,0 +1,59 @@
+
+### `.gitignore`
+
+```gitignore
+# Python build
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+.venv.bak/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and dumps
+*.log
+memory_log.txt
+memory_log.csv
+system_monitor.log
+*.bak
+*.pid
+*.out
+
+# Snapshots or auto-generated assets
+snapshots/
+*.json
+
+# Secrets and keys
+*.key
+*.pem
+*.p12
+
+# Optional GUI temp/cache
+.cache/
+__snapshots__/
+.qgis2/
+
+# Test outputs
+.pytest_cache/
+htmlcov/
+coverage.xml
+
+# Exclude platform-specific outputs
+*.dSYM/
+*.lprof
