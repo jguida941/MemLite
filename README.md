@@ -4,7 +4,7 @@ This is a Devlopers Widget for people who do machine learning or projects where 
 # Simple Mac inspired widge that tells you cpu/swap/load on the computer I use when developing sometimes.
 Test on a M4 Mac 48gb ram I didnt make this for low end computers
 Shouldnt use more then 2-4gb ram tho, id say less. 
-**I have not tested on windows** or unit tested thoughly.  **I just use to montor swap safely while doing heavy tasks so I dont have to contantly run task mangage wake up deamons etc on mac**
+**I have not tested on windows** or unit tested thoughly.  **I just use to montor swap safely while doing heavy tasks so I dont have to contantly run task mangager which uses alot of data/cpu and wakes up deamons etc on MAC*
 
 
 # Memory Management Monitor (macOS)
