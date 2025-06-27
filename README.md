@@ -1,5 +1,4 @@
-# BSD 3-Clause License:
-Created by Justin Gudida. May - 2025. Use it all your want. Never fully finished this just gotta change buttons locations/polish it up a bit.
+
 This is a Devlopers Widget for people who do machine learning or projects where you may use alot of swap or swpu use to moniter. It will tell you vocally when you reach a certain amount to shut  down to save SSD.
 
 # Simple Mac inspired widge that tells you cpu/swap/load on the computer I use when developing sometimes.
@@ -94,15 +93,20 @@ Or double-click the .pyw file on desktop.
 •   ***Compatible with Python 3.10+***
 
 
+
+
+# BSD 3-Clause License:
+Created by Justin Gudida. May - 2025. Use it all your want. Never fully finished this just gotta change buttons locations/polish it up a bit.
+
+
+
 # Roadmap
 
 The additions will support:
 
 - **QColorDialog**: For your UI editor's color selection
-  
-- **QSlider**: For opacity/transparency controls in your UI editor
 
-- **QIcon, QPainter, QPen, QPixmap**: For custom drawing like the traffic light buttons
+- **QIcon, QPainter, QPen, QPixmap**: For custom drawing like the traffic light buttons - Need to put in right place
  
 - **json**: To save/load UI customization settings
   
