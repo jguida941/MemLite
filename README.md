@@ -1,9 +1,10 @@
 
-This is a Devlopers Widget for people who do machine learning or projects where you may use alot of swap or swpu use to moniter. It will tell you vocally when you reach a certain amount to shut  down to save SSD.
+This is a Devlopers Widget for people who do machine learning or projects where you may use alot of swap or cpu use you need to moniter. This app will tell you vocally when you reach a certain amount of swap to shut down to save SSD. No need to check activity monitor. 
 
 # Simple Mac inspired widge that tells you cpu/swap/load on the computer I use when developing sometimes.
 Test on a M4 Mac 48gb ram I didnt make this for low end computers
-Shouldnt use more then 2-4gb ram tho, id say less. But I have not tested on windows or unit test I just use to montor swap safely while doing heavy tasks so I dont have to contantly run task mangage wake up deamons etc.  
+Shouldnt use more then 2-4gb ram tho, id say less. 
+**I have not tested on windows** or unit tested thoughly.  **I just use to montor swap safely while doing heavy tasks so I dont have to contantly run task mangage wake up deamons etc on mac**
 
 
 # Memory Management Monitor (macOS)
