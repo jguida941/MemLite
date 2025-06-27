@@ -98,7 +98,9 @@ Or double-click the .pyw file on desktop.
 
 
 # BSD 3-Clause License:
-Created by Justin Gudida. May - 2025. Use it all your want. Never fully finished this just gotta change buttons locations/polish it up a bit.
+Created by **Justin Gudida**. May - 2025.
+Use it all your want. Never fully finished this just gotta change buttons locations/polish it up a bit.
+Have a lot of projects to get to feel feel to **contribute** 
 
 
 
