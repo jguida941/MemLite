@@ -1,5 +1,8 @@
-# Per the BSD 3-Clause License:
-Neither the name of the psutil authors nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+# BSD 3-Clause License:
+Created by Justin Gudida. May - 2025 
+#Simple Mac inspired widge that tells you cpu/swap/load on the computer I use when developing sometimes.
+Test on a M4 Mac 48gb ram I didnt mac this for low end computers (it shouldnt use more then 2-4gb ram tho, id say less. But I have not tested on windows. 
+
 
 # Memory Management Monitor (macOS)
 
