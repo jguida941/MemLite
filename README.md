@@ -9,7 +9,7 @@ Shouldnt use more then 2-4gb ram tho, id say less.
 
 # Memory Management Monitor (macOS)
 
-A lightweight Python utility for tracking system memory, CPU, swap, load averages, and GPU VRAM usage on macOS. Logs diagnostics to the Desktop for easy performance review.
+A lightweight Python utility for tracking system memory, CPU, swap, load averages, and GPU VRAM usage on macOS. Logs diagnostics to the Desktop for easy performance review!
 
 
 # Features
