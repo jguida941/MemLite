@@ -1,9 +1,11 @@
 
-This is a Devlopers Widget for people who do machine learning or projects where you may use alot of swap or cpu use you need to moniter. This app will tell you vocally when you reach a certain amount of swap to shut down to save SSD. No need to check activity monitor. 
-
 # Simple Mac inspired widge that tells you cpu/swap/load on the computer I use when developing sometimes.
 Test on a M4 Mac 48gb ram I didnt make this for low end computers
 Shouldnt use more then 2-4gb ram tho, id say less. 
+
+
+This is a Devlopers Widget for people who do machine learning or projects where you may use alot of swap or cpu use you need to moniter. This app will tell you vocally when you reach a certain amount of swap to shut down to save SSD. No need to check activity monitor. 
+
 **I have not tested on windows** or unit tested thoughly.  **I just use to montor swap safely while doing heavy tasks so I dont have to contantly run task mangager which uses alot of data/cpu and wakes up deamons etc on MAC*
 
 
@@ -71,18 +73,6 @@ Or double-click the .pyw file on desktop.
 
 
 
-# License
-
--This project is licensed under the BSD 3-Clause License.
-
--It includes components under compatible open source terms.
-
--Great libraries like psutil are used to gather system information.
-
--Thanks to the psutil authors for their work, I am NOT endorsed by them
-
--just giving them credit where credit is due.
-
 
 
 # Architect of the UI design and Custom Features
@@ -97,37 +87,16 @@ Or double-click the .pyw file on desktop.
 
 
 
-# Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)
+# License
 
-**Copyright (c) 2025 Justin Guida**
+**Evaluation only — all rights reserved.**
 
-This work is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License**.
+You may **clone and run locally** for personal or hiring evaluation.  
+You may **not** redistribute, sublicense, or use this work commercially without my written permission.
 
-You are free to:
+See the [LICENSE](LICENSE) file for the exact terms.
 
-**Share** — copy and redistribute the material in any medium or format  
-**Adapt** — remix, transform, and build upon the material  
-
-Under the following terms:
-
- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. Credit must include:
-- Name: *Justin Guida*
-- Year: *2025*
-- GitHub: [https://github.com/jguida941](https://github.com/jguida941)
-
- **NonCommercial** — You may not use the material for **commercial purposes** without **explicit written permission** from the author.
-
-Additional terms:
-
-- **You may not sell**, rebrand, or redistribute this work for profit.  
-- Educational institutions and students may freely use, adapt, and build upon this work **for non-commercial academic use**, including course materials and presentations.
-- Derivative works must also credit the original author clearly.
-
----
-
-To view the full license, visit:  
-[https://creativecommons.org/licenses/by-nc/4.0](https://creativecommons.org/licenses/by-nc/4.0)
-
+**Qt note:** This app uses **PyQt6 (GPLv3)**. Do **not** redistribute the app unless you comply with GPLv3 or have a Qt commercial license.
 
 
 # Roadmap
