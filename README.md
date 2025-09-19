@@ -28,7 +28,7 @@ A lightweight Python utility for tracking system memory, CPU, swap, load average
 
 •  CPU usage percentage
 
- ***PYQT6 Transparent UI to show metrics***
+• PYQT6 Transparent UI to show metrics
  
 •  Load averages (1, 5, and 15 minutes)
 
